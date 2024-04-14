@@ -1,0 +1,74 @@
+# This image allows us to use an Ubuntu 20.04 + ROS noetic environment 
+# on any device that has Docker. In principle, you should not build docker 
+# in this file, there are scripts to build it and also to run it, see more in README-Docker.MD
+
+# Essa imagem docker permite que usamos um ambiete ubunto 20.04 + ROS noetic
+# em qualquer dispositivo que tem suporte pra docker. A princípio você não dever rodar o build
+# nesse arquivo, existe scripts para dar o build e também o run. Veja mais sobre na pasta docker
+
+# Based on the work of Kaiyu Zheng
+# /author: João Pedro Baltieca Garcia, aka JPBG-USP
+
+# Base image (Imagem de base)
+FROM osrf/ros:noetic-desktop-full
+
+# Do this to avoid hanging (Trocando ambiente para não interativo, evita problemas com instalação)
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Installing softwares (Instalando Softwares)
+RUN apt-get clean \
+    && apt-get update
+
+## Installing utils (Pacotes de utilidades)
+RUN apt-get install -y --no-install-recommends apt-utils
+RUN apt-get install -y emacs
+RUN apt-get install -y iputils-ping
+RUN apt-get install -y gdb
+RUN apt-get install -y mlocate
+RUN apt-get install -y sudo
+RUN apt-get install -y git
+RUN apt-get install -y openssh-client openssh-server
+
+## Python packages (Pacotes de python)
+RUN apt-get install -y python3 python3-pip
+RUN apt-get install -y python-numpy
+RUN pip install opencv-python
+RUN apt-get install -y python3-virtualenv
+
+## ROS packages (Pacotes de ROS)
+RUN apt-get install -y ros-noetic-desktop-full
+RUN apt-get install -y ros-noetic-rviz-imu-plugin
+RUN apt-get install -y ros-noetic-navigation
+RUN apt-get install -y ros-noetic-ros-control ros-noetic-ros-controllers
+RUN apt-get install -y ros-noetic-interactive-marker-twist-server
+RUN apt-get install -y ros-noetic-joy
+RUN apt-get install -y ros-noetic-twist-mux
+RUN apt-get install -y ros-noetic-teleop-twist-joy
+RUN apt-get install -y ros-noetic-depthimage-to-laserscan
+
+# Setting container user (Setando usuário para o container)
+## User arguments 
+ARG USERNAME=lisa
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+
+## Creating users
+RUN groupadd --gid $USER_GID $USERNAME \
+    && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
+    && mkdir /home/$USERNAME/.config && chown $USER_UID:$USER_GID /home/$USERNAME/.config
+
+## Adding sudo permitions to container user
+RUN echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
+    && chmod 0440 /etc/sudoers.d/$USERNAME \
+    && rm -rf /var/lib/apt/lists/*
+
+# Adding config files
+COPY config/bashrc /home/${USERNAME}/.bashrc
+
+# Settings for start state of the container
+USER $USERNAME
+WORKDIR /home/$USERNAME
+ENV HOME=/home/$USERNAME
+RUN mkdir $HOME/repo
+
+CMD ["bash"]
