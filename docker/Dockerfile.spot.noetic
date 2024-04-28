@@ -46,9 +46,12 @@ RUN apt-get install -y ros-noetic-twist-mux
 RUN apt-get install -y ros-noetic-teleop-twist-joy
 RUN apt-get install -y ros-noetic-depthimage-to-laserscan
 
+# spot SDK
+RUN pip3 install bosdyn-client bosdyn-mission bosdyn-api bosdyn-core
+
 # Setting container user (Setando usuário para o container)
 ## User arguments 
-ARG USERNAME=lisa
+ARG USERNAME=host
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
