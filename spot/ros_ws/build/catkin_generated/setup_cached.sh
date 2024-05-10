@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/host/spot/ros_ws/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/host/spot/ros_ws/devel/lib:$LD_LIBRARY_PATH"
+export PATH="/home/host/spot/ros_ws/devel/bin:$PATH"
 export PKG_CONFIG_PATH="/home/host/spot/ros_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/host/spot/ros_ws/build'
 export PYTHONPATH="/home/host/spot/ros_ws/devel/lib/python3/dist-packages:$PYTHONPATH"

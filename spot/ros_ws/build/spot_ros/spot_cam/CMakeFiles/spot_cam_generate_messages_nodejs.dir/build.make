@@ -86,9 +86,9 @@ spot_ros/spot_cam/CMakeFiles/spot_cam_generate_messages_nodejs: /home/host/spot/
 
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/BITStatus.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/BITStatus.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/BITStatus.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/BITStatus.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/BITStatus.js: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/BITStatus.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from spot_cam/BITStatus.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg
 
@@ -123,17 +123,17 @@ spot_ros/spot_cam/CMakeFiles/spot_cam_generate_messages_nodejs: /home/host/spot/
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZState.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZState.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from spot_cam/PTZState.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg
 
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/PTZStateArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from spot_cam/PTZStateArray.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg
 
@@ -160,27 +160,27 @@ spot_ros/spot_cam/CMakeFiles/spot_cam_generate_messages_nodejs: /home/host/spot/
 
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointAction.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from spot_cam/LookAtPointAction.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg
 
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from spot_cam/LookAtPointActionGoal.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg
 
@@ -205,8 +205,8 @@ spot_ros/spot_cam/CMakeFiles/spot_cam_generate_messages_nodejs: /home/host/spot/
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointGoal.js: /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg/LookAtPointGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from spot_cam/LookAtPointGoal.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/msg
 
@@ -228,8 +228,8 @@ spot_ros/spot_cam/CMakeFiles/spot_cam_generate_messages_nodejs: /home/host/spot/
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/LookAtPoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/LookAtPoint.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/LookAtPoint.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/LookAtPoint.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/LookAtPoint.js: /opt/ros/noetic/share/geometry_msgs/msg/PointStamped.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/LookAtPoint.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from spot_cam/LookAtPoint.srv"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv
 
@@ -260,10 +260,10 @@ spot_ros/spot_cam/CMakeFiles/spot_cam_generate_messages_nodejs: /home/host/spot/
 
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg
 /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv/SetPTZState.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from spot_cam/SetPTZState.srv"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv -Ispot_cam:/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg -Ispot_cam:/home/host/spot/ros_ws/devel/share/spot_cam/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_cam -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/spot_cam/srv
 

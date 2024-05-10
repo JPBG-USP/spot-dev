@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 include spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionGoal.dir/progress.make
 
 spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionGoal:
-	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg geometry_msgs/Point:spot_msgs/TrajectoryGoal:std_msgs/Duration:actionlib_msgs/GoalID:geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header
+	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg std_msgs/Duration:actionlib_msgs/GoalID:geometry_msgs/Pose:geometry_msgs/PoseStamped:spot_msgs/TrajectoryGoal:geometry_msgs/Point:geometry_msgs/Quaternion:std_msgs/Header
 
 _spot_msgs_generate_messages_check_deps_TrajectoryActionGoal: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionGoal
 _spot_msgs_generate_messages_check_deps_TrajectoryActionGoal: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionGoal.dir/build.make

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 include spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_PTZStateArray.dir/progress.make
 
 spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_PTZStateArray:
-	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_cam /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg std_msgs/Header:spot_cam/PTZLimits:spot_cam/PTZState:spot_cam/PTZDescription
+	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_cam /home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg spot_cam/PTZState:spot_cam/PTZLimits:spot_cam/PTZDescription:std_msgs/Header
 
 _spot_cam_generate_messages_check_deps_PTZStateArray: spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_PTZStateArray
 _spot_cam_generate_messages_check_deps_PTZStateArray: spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_PTZStateArray.dir/build.make

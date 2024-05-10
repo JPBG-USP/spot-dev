@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 include spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SpotCheck.dir/progress.make
 
 spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SpotCheck:
-	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SpotCheck.srv spot_msgs/SpotCheckHipROM:spot_msgs/SpotCheckLoadCell:spot_msgs/SpotCheckDepth:spot_msgs/SpotCheckPayload:spot_msgs/SpotCheckKinematic
+	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SpotCheck.srv spot_msgs/SpotCheckPayload:spot_msgs/SpotCheckKinematic:spot_msgs/SpotCheckHipROM:spot_msgs/SpotCheckDepth:spot_msgs/SpotCheckLoadCell
 
 _spot_msgs_generate_messages_check_deps_SpotCheck: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SpotCheck
 _spot_msgs_generate_messages_check_deps_SpotCheck: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SpotCheck.dir/build.make

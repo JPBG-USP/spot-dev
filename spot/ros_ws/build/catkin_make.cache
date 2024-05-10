@@ -1,2 +1,2 @@
-spot_ros/spot_cam:spot_ros/spot_description:spot_ros/spot_driver:spot_ros/spot_msgs:spot_ros/spot_viz
+navigation_sim:robot_simulation
 -DCATKIN_DEVEL_PREFIX=/home/host/spot/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/host/spot/ros_ws/install -G Unix Makefiles

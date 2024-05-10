@@ -150,8 +150,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_BatteryStateArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG spot_msgs/BatteryStateArray"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -163,17 +163,17 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_EStopStateArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_EStopStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopStateArray.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_EStopStateArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_EStopStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopState.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_EStopStateArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG spot_msgs/EStopStateArray"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootStateArray.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainState.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootStateArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG spot_msgs/FootStateArray"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -198,13 +198,13 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/MobilityParams.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ObstacleParams.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainParams.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ObstacleParams.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainParams.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_MobilityParams.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG spot_msgs/MobilityParams"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/MobilityParams.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -245,9 +245,9 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootState.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootState.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootState.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootState.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainState.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootState.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FootState.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG spot_msgs/FootState"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -271,8 +271,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_SystemFaultState.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python from MSG spot_msgs/SystemFaultState"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -324,18 +324,18 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_AprilTagProperties.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_AprilTagProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_AprilTagProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_AprilTagProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_AprilTagProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_AprilTagProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_AprilTagProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Python from MSG spot_msgs/AprilTagProperties"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FrameTreeSnapshot.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FrameTreeSnapshot.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FrameTreeSnapshot.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FrameTreeSnapshot.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FrameTreeSnapshot.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FrameTreeSnapshot.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_FrameTreeSnapshot.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG spot_msgs/FrameTreeSnapshot"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
@@ -350,29 +350,29 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageCapture.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Python from MSG spot_msgs/ImageCapture"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_ImageProperties.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Python from MSG spot_msgs/ImageProperties"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -383,84 +383,84 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObject.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Python from MSG spot_msgs/WorldObject"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObjectArray.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_WorldObjectArray.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Python from MSG spot_msgs/WorldObjectArray"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObjectArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockAction.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Python from MSG spot_msgs/DockAction"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Python from MSG spot_msgs/DockActionGoal"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Python from MSG spot_msgs/DockActionResult"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_DockActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Python from MSG spot_msgs/DockActionFeedback"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -482,14 +482,14 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToAction.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating Python from MSG spot_msgs/NavigateToAction"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
@@ -497,26 +497,26 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Python from MSG spot_msgs/NavigateToActionGoal"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Python from MSG spot_msgs/NavigateToActionResult"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateToActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Python from MSG spot_msgs/NavigateToActionFeedback"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -537,41 +537,41 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteAction.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating Python from MSG spot_msgs/NavigateRouteAction"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating Python from MSG spot_msgs/NavigateRouteActionGoal"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating Python from MSG spot_msgs/NavigateRouteActionResult"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_NavigateRouteActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Python from MSG spot_msgs/NavigateRouteActionFeedback"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -592,27 +592,27 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyAction.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating Python from MSG spot_msgs/PoseBodyAction"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating Python from MSG spot_msgs/PoseBodyActionGoal"
@@ -620,19 +620,19 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating Python from MSG spot_msgs/PoseBodyActionResult"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_PoseBodyActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating Python from MSG spot_msgs/PoseBodyActionFeedback"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
@@ -656,61 +656,61 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryAction.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryAction.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating Python from MSG spot_msgs/TrajectoryAction"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating Python from MSG spot_msgs/TrajectoryActionGoal"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionResult.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating Python from MSG spot_msgs/TrajectoryActionResult"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryActionFeedback.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating Python from MSG spot_msgs/TrajectoryActionFeedback"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg/_TrajectoryGoal.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating Python from MSG spot_msgs/TrajectoryGoal"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/msg
@@ -752,8 +752,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SetVelocity.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SetVelocity.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SetVelocity.srv
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SetVelocity.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SetVelocity.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SetVelocity.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating Python code from SRV spot_msgs/SetVelocity"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SetVelocity.srv -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv
 
@@ -820,11 +820,11 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_py: /home/host/spot/ro
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SpotCheck.srv
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckHipROM.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckLoadCell.msg
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckDepth.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckPayload.msg
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckKinematic.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckHipROM.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckDepth.msg
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv/_SpotCheck.py: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckLoadCell.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating Python code from SRV spot_msgs/SpotCheck"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SpotCheck.srv -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/spot_msgs/srv
 

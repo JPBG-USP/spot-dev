@@ -19,7 +19,7 @@ add_custom_target(spot_cam_generate_messages ALL)
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg" "spot_cam/Degradation:spot_msgs/SystemFault:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg" "std_msgs/Header:spot_cam/Degradation:spot_msgs/SystemFault"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg" NAME_WE)
@@ -49,12 +49,12 @@ add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg" "spot_cam/PTZLimits:std_msgs/Header:spot_cam/PTZDescription"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg" "spot_cam/PTZLimits:spot_cam/PTZDescription:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg" "std_msgs/Header:spot_cam/PTZLimits:spot_cam/PTZState:spot_cam/PTZDescription"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg" "spot_cam/PTZState:spot_cam/PTZLimits:spot_cam/PTZDescription:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/StreamParams.msg" NAME_WE)
@@ -79,12 +79,12 @@ add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg" "spot_cam/LookAtPointResult:spot_cam/LookAtPointActionGoal:actionlib_msgs/GoalID:spot_cam/LookAtPointActionFeedback:spot_cam/LookAtPointActionResult:spot_cam/LookAtPointGoal:std_msgs/Header:spot_cam/LookAtPointFeedback:geometry_msgs/Point:geometry_msgs/PointStamped:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg" "geometry_msgs/Point:spot_cam/LookAtPointActionResult:std_msgs/Header:spot_cam/LookAtPointResult:geometry_msgs/PointStamped:spot_cam/LookAtPointFeedback:actionlib_msgs/GoalStatus:spot_cam/LookAtPointActionGoal:spot_cam/LookAtPointActionFeedback:actionlib_msgs/GoalID:spot_cam/LookAtPointGoal"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg" "actionlib_msgs/GoalID:spot_cam/LookAtPointGoal:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/PointStamped:actionlib_msgs/GoalID:spot_cam/LookAtPointGoal"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg" NAME_WE)
@@ -99,7 +99,7 @@ add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg" "geometry_msgs/Point:geometry_msgs/PointStamped:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg" NAME_WE)
@@ -119,7 +119,7 @@ add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv" "geometry_msgs/Point:std_msgs/Header:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv" "geometry_msgs/Point:geometry_msgs/PointStamped:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/PlaySound.srv" NAME_WE)
@@ -149,7 +149,7 @@ add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv" NAME_WE)
 add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv" "std_msgs/Header:spot_cam/PTZLimits:spot_cam/PTZState:spot_cam/PTZDescription"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "spot_cam" "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv" "spot_cam/PTZState:spot_cam/PTZLimits:spot_cam/PTZDescription:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetStreamParams.srv" NAME_WE)
@@ -171,7 +171,7 @@ add_custom_target(_spot_cam_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_cpp(spot_cam
@@ -207,13 +207,13 @@ _generate_msg_cpp(spot_cam
 _generate_msg_cpp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_cpp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_cpp(spot_cam
@@ -243,13 +243,13 @@ _generate_msg_cpp(spot_cam
 _generate_msg_cpp(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_cpp(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_cpp(spot_cam
@@ -267,7 +267,7 @@ _generate_msg_cpp(spot_cam
 _generate_msg_cpp(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_cpp(spot_cam
@@ -293,7 +293,7 @@ _generate_srv_cpp(spot_cam
 _generate_srv_cpp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_srv_cpp(spot_cam
@@ -329,7 +329,7 @@ _generate_srv_cpp(spot_cam
 _generate_srv_cpp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/spot_cam
 )
 _generate_srv_cpp(spot_cam
@@ -428,7 +428,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_cam_generate_messages_cpp)
 _generate_msg_eus(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_msg_eus(spot_cam
@@ -464,13 +464,13 @@ _generate_msg_eus(spot_cam
 _generate_msg_eus(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_msg_eus(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_msg_eus(spot_cam
@@ -500,13 +500,13 @@ _generate_msg_eus(spot_cam
 _generate_msg_eus(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_msg_eus(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_msg_eus(spot_cam
@@ -524,7 +524,7 @@ _generate_msg_eus(spot_cam
 _generate_msg_eus(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_msg_eus(spot_cam
@@ -550,7 +550,7 @@ _generate_srv_eus(spot_cam
 _generate_srv_eus(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_srv_eus(spot_cam
@@ -586,7 +586,7 @@ _generate_srv_eus(spot_cam
 _generate_srv_eus(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/spot_cam
 )
 _generate_srv_eus(spot_cam
@@ -685,7 +685,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_cam_generate_messages_eus)
 _generate_msg_lisp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_lisp(spot_cam
@@ -721,13 +721,13 @@ _generate_msg_lisp(spot_cam
 _generate_msg_lisp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_lisp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_lisp(spot_cam
@@ -757,13 +757,13 @@ _generate_msg_lisp(spot_cam
 _generate_msg_lisp(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_lisp(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_lisp(spot_cam
@@ -781,7 +781,7 @@ _generate_msg_lisp(spot_cam
 _generate_msg_lisp(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_msg_lisp(spot_cam
@@ -807,7 +807,7 @@ _generate_srv_lisp(spot_cam
 _generate_srv_lisp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_srv_lisp(spot_cam
@@ -843,7 +843,7 @@ _generate_srv_lisp(spot_cam
 _generate_srv_lisp(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/spot_cam
 )
 _generate_srv_lisp(spot_cam
@@ -942,7 +942,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_cam_generate_messages_lisp)
 _generate_msg_nodejs(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_msg_nodejs(spot_cam
@@ -978,13 +978,13 @@ _generate_msg_nodejs(spot_cam
 _generate_msg_nodejs(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_msg_nodejs(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_msg_nodejs(spot_cam
@@ -1014,13 +1014,13 @@ _generate_msg_nodejs(spot_cam
 _generate_msg_nodejs(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_msg_nodejs(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_msg_nodejs(spot_cam
@@ -1038,7 +1038,7 @@ _generate_msg_nodejs(spot_cam
 _generate_msg_nodejs(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_msg_nodejs(spot_cam
@@ -1064,7 +1064,7 @@ _generate_srv_nodejs(spot_cam
 _generate_srv_nodejs(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_srv_nodejs(spot_cam
@@ -1100,7 +1100,7 @@ _generate_srv_nodejs(spot_cam
 _generate_srv_nodejs(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/spot_cam
 )
 _generate_srv_nodejs(spot_cam
@@ -1199,7 +1199,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS spot_cam_generate_messages_nodejs)
 _generate_msg_py(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/BITStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/Degradation.msg;/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_msg_py(spot_cam
@@ -1235,13 +1235,13 @@ _generate_msg_py(spot_cam
 _generate_msg_py(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_msg_py(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZStateArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_msg_py(spot_cam
@@ -1271,13 +1271,13 @@ _generate_msg_py(spot_cam
 _generate_msg_py(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_msg_py(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_msg_py(spot_cam
@@ -1295,7 +1295,7 @@ _generate_msg_py(spot_cam
 _generate_msg_py(spot_cam
   "/home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_msg_py(spot_cam
@@ -1321,7 +1321,7 @@ _generate_srv_py(spot_cam
 _generate_srv_py(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/LookAtPoint.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_srv_py(spot_cam
@@ -1357,7 +1357,7 @@ _generate_srv_py(spot_cam
 _generate_srv_py(spot_cam
   "/home/host/spot/ros_ws/src/spot_ros/spot_cam/srv/SetPTZState.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg"
+  "/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZState.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZLimits.msg;/home/host/spot/ros_ws/src/spot_ros/spot_cam/msg/PTZDescription.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/spot_cam
 )
 _generate_srv_py(spot_cam

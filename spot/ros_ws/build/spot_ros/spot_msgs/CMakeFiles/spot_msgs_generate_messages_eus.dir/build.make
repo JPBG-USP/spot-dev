@@ -149,8 +149,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/BatteryStateArray.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/BatteryStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/BatteryStateArray.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/BatteryStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/BatteryStateArray.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from spot_msgs/BatteryStateArray.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -162,17 +162,17 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/EStopStateArray.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/EStopStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopStateArray.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/EStopStateArray.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/EStopStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopState.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/EStopStateArray.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from spot_msgs/EStopStateArray.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootStateArray.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainState.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootStateArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from spot_msgs/FootStateArray.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -197,13 +197,13 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/MobilityParams.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ObstacleParams.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainParams.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ObstacleParams.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainParams.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/MobilityParams.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from spot_msgs/MobilityParams.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/MobilityParams.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -244,9 +244,9 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootState.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootState.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootState.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootState.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootState.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainState.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootState.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FootState.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from spot_msgs/FootState.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -270,8 +270,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/SystemFaultState.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/SystemFaultState.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/SystemFaultState.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/SystemFaultState.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/SystemFaultState.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating EusLisp code from spot_msgs/SystemFaultState.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -323,18 +323,18 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/AprilTagProperties.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/AprilTagProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/AprilTagProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/AprilTagProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/AprilTagProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/AprilTagProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/AprilTagProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating EusLisp code from spot_msgs/AprilTagProperties.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FrameTreeSnapshot.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FrameTreeSnapshot.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FrameTreeSnapshot.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FrameTreeSnapshot.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FrameTreeSnapshot.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FrameTreeSnapshot.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/FrameTreeSnapshot.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating EusLisp code from spot_msgs/FrameTreeSnapshot.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
@@ -349,29 +349,29 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageCapture.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating EusLisp code from spot_msgs/ImageCapture.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/ImageProperties.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating EusLisp code from spot_msgs/ImageProperties.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -382,84 +382,84 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObject.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating EusLisp code from spot_msgs/WorldObject.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObjectArray.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/WorldObjectArray.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating EusLisp code from spot_msgs/WorldObjectArray.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObjectArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockAction.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating EusLisp code from spot_msgs/DockAction.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating EusLisp code from spot_msgs/DockActionGoal.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating EusLisp code from spot_msgs/DockActionResult.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/DockActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating EusLisp code from spot_msgs/DockActionFeedback.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -481,14 +481,14 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToAction.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating EusLisp code from spot_msgs/NavigateToAction.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
@@ -496,26 +496,26 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating EusLisp code from spot_msgs/NavigateToActionGoal.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating EusLisp code from spot_msgs/NavigateToActionResult.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateToActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating EusLisp code from spot_msgs/NavigateToActionFeedback.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -536,41 +536,41 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteAction.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating EusLisp code from spot_msgs/NavigateRouteAction.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating EusLisp code from spot_msgs/NavigateRouteActionGoal.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating EusLisp code from spot_msgs/NavigateRouteActionResult.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/NavigateRouteActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating EusLisp code from spot_msgs/NavigateRouteActionFeedback.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -591,27 +591,27 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyAction.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating EusLisp code from spot_msgs/PoseBodyAction.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating EusLisp code from spot_msgs/PoseBodyActionGoal.msg"
@@ -619,19 +619,19 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating EusLisp code from spot_msgs/PoseBodyActionResult.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/PoseBodyActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating EusLisp code from spot_msgs/PoseBodyActionFeedback.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
@@ -655,61 +655,61 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryAction.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating EusLisp code from spot_msgs/TrajectoryAction.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating EusLisp code from spot_msgs/TrajectoryActionGoal.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating EusLisp code from spot_msgs/TrajectoryActionResult.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryActionFeedback.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating EusLisp code from spot_msgs/TrajectoryActionFeedback.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg/TrajectoryGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating EusLisp code from spot_msgs/TrajectoryGoal.msg"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/msg
@@ -751,8 +751,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SetVelocity.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SetVelocity.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SetVelocity.srv
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SetVelocity.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SetVelocity.l: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SetVelocity.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating EusLisp code from spot_msgs/SetVelocity.srv"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SetVelocity.srv -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv
 
@@ -819,11 +819,11 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_eus: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SpotCheck.srv
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckHipROM.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckLoadCell.msg
-/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckDepth.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckPayload.msg
 /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckKinematic.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckHipROM.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckDepth.msg
+/home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv/SpotCheck.l: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckLoadCell.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating EusLisp code from spot_msgs/SpotCheck.srv"
 	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SpotCheck.srv -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/share/roseus/ros/spot_msgs/srv
 

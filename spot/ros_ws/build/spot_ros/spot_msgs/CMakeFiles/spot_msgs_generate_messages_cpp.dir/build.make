@@ -148,8 +148,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/BatteryStateArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/BatteryStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/BatteryStateArray.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/BatteryStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryState.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/BatteryStateArray.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/BatteryStateArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from spot_msgs/BatteryStateArray.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/BatteryStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -163,18 +163,18 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/EStopStateArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/EStopStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopStateArray.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/EStopStateArray.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/EStopStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopState.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/EStopStateArray.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/EStopStateArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from spot_msgs/EStopStateArray.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/EStopStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootStateArray.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainState.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootStateArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from spot_msgs/FootStateArray.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootStateArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -203,13 +203,13 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/MobilityParams.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ObstacleParams.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainParams.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ObstacleParams.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainParams.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/MobilityParams.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from spot_msgs/MobilityParams.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/MobilityParams.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -257,9 +257,9 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/TerrainState.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FootState.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from spot_msgs/FootState.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FootState.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -287,8 +287,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/SystemFaultState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/SystemFaultState.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/SystemFaultState.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/SystemFaultState.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFault.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/SystemFaultState.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/SystemFaultState.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from spot_msgs/SystemFaultState.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SystemFaultState.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -350,19 +350,19 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/AprilTagProperties.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from spot_msgs/AprilTagProperties.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/FrameTreeSnapshot.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from spot_msgs/FrameTreeSnapshot.msg"
@@ -379,30 +379,30 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageCapture.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from spot_msgs/ImageCapture.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/ImageProperties.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from spot_msgs/ImageProperties.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -415,58 +415,58 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObject.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from spot_msgs/WorldObject.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObjectArray.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ParentEdge.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/FrameTreeSnapshot.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/AprilTagProperties.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageCapture.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Polygon.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageProperties.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/ImageSource.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Point32.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObject.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/WorldObjectArray.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from spot_msgs/WorldObjectArray.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/WorldObjectArray.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockAction.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from spot_msgs/DockAction.msg"
@@ -474,30 +474,30 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from spot_msgs/DockActionGoal.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from spot_msgs/DockActionResult.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/DockState.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockFeedback.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/DockActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating C++ code from spot_msgs/DockActionFeedback.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -523,14 +523,14 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToAction.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating C++ code from spot_msgs/NavigateToAction.msg"
@@ -539,28 +539,28 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating C++ code from spot_msgs/NavigateToActionGoal.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating C++ code from spot_msgs/NavigateToActionResult.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateToActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating C++ code from spot_msgs/NavigateToActionFeedback.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateToActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -585,34 +585,34 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteAction.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating C++ code from spot_msgs/NavigateRouteAction.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating C++ code from spot_msgs/NavigateRouteActionGoal.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionGoal.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating C++ code from spot_msgs/NavigateRouteActionResult.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -620,9 +620,9 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/NavigateRouteActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating C++ code from spot_msgs/NavigateRouteActionFeedback.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/NavigateRouteActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -647,28 +647,28 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyAction.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating C++ code from spot_msgs/PoseBodyAction.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyAction.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -677,20 +677,20 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating C++ code from spot_msgs/PoseBodyActionResult.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/PoseBodyActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating C++ code from spot_msgs/PoseBodyActionFeedback.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/PoseBodyActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -718,19 +718,19 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryAction.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating C++ code from spot_msgs/TrajectoryAction.msg"
@@ -738,13 +738,13 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating C++ code from spot_msgs/TrajectoryActionGoal.msg"
@@ -752,31 +752,31 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryResult.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating C++ code from spot_msgs/TrajectoryActionResult.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionResult.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryFeedback.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating C++ code from spot_msgs/TrajectoryActionFeedback.msg"
 	cd /home/host/spot/ros_ws/src/spot_ros/spot_msgs && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg -Ispot_msgs:/home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg -Ispot_msgs:/home/host/spot/ros_ws/devel/share/spot_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p spot_msgs -o /home/host/spot/ros_ws/devel/include/spot_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryGoal.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/std_msgs/msg/Duration.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/TrajectoryGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating C++ code from spot_msgs/TrajectoryGoal.msg"
@@ -831,8 +831,8 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/SetVelocity.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/SetVelocity.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SetVelocity.srv
-/home/host/spot/ros_ws/devel/include/spot_msgs/SetVelocity.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/SetVelocity.h: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/SetVelocity.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/SetVelocity.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/host/spot/ros_ws/devel/include/spot_msgs/SetVelocity.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating C++ code from spot_msgs/SetVelocity.srv"
@@ -923,11 +923,11 @@ spot_ros/spot_msgs/CMakeFiles/spot_msgs_generate_messages_cpp: /home/host/spot/r
 
 /home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SpotCheck.srv
-/home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckHipROM.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckLoadCell.msg
-/home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckDepth.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckPayload.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckKinematic.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckHipROM.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckDepth.msg
+/home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /home/host/spot/ros_ws/src/spot_ros/spot_msgs/msg/SpotCheckLoadCell.msg
 /home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/host/spot/ros_ws/devel/include/spot_msgs/SpotCheck.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating C++ code from spot_msgs/SpotCheck.srv"

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 include spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SetVelocity.dir/progress.make
 
 spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SetVelocity:
-	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SetVelocity.srv geometry_msgs/Vector3:geometry_msgs/Twist
+	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/src/spot_ros/spot_msgs/srv/SetVelocity.srv geometry_msgs/Twist:geometry_msgs/Vector3
 
 _spot_msgs_generate_messages_check_deps_SetVelocity: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SetVelocity
 _spot_msgs_generate_messages_check_deps_SetVelocity: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_SetVelocity.dir/build.make

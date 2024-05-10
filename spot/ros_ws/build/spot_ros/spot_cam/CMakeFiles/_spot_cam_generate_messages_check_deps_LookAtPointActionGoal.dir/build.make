@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 include spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_LookAtPointActionGoal.dir/progress.make
 
 spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_LookAtPointActionGoal:
-	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_cam /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg actionlib_msgs/GoalID:spot_cam/LookAtPointGoal:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PointStamped
+	cd /home/host/spot/ros_ws/build/spot_ros/spot_cam && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_cam /home/host/spot/ros_ws/devel/share/spot_cam/msg/LookAtPointActionGoal.msg geometry_msgs/Point:std_msgs/Header:geometry_msgs/PointStamped:actionlib_msgs/GoalID:spot_cam/LookAtPointGoal
 
 _spot_cam_generate_messages_check_deps_LookAtPointActionGoal: spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_LookAtPointActionGoal
 _spot_cam_generate_messages_check_deps_LookAtPointActionGoal: spot_ros/spot_cam/CMakeFiles/_spot_cam_generate_messages_check_deps_LookAtPointActionGoal.dir/build.make

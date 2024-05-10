@@ -1,0 +1,8 @@
+prefix=/home/host/spot/ros_ws/install
+
+Name: navigation_sim
+Description: Description of navigation_sim
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lstring_chatter
+Requires: 

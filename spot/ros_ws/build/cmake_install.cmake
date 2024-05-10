@@ -131,11 +131,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/host/spot/ros_ws/build/gtest/cmake_install.cmake")
-  include("/home/host/spot/ros_ws/build/spot_ros/spot_description/cmake_install.cmake")
-  include("/home/host/spot/ros_ws/build/spot_ros/spot_driver/cmake_install.cmake")
-  include("/home/host/spot/ros_ws/build/spot_ros/spot_msgs/cmake_install.cmake")
-  include("/home/host/spot/ros_ws/build/spot_ros/spot_cam/cmake_install.cmake")
-  include("/home/host/spot/ros_ws/build/spot_ros/spot_viz/cmake_install.cmake")
+  include("/home/host/spot/ros_ws/build/navigation_sim/cmake_install.cmake")
+  include("/home/host/spot/ros_ws/build/robot_simulation/cmake_install.cmake")
 
 endif()
 

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 include spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionFeedback.dir/progress.make
 
 spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionFeedback:
-	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg spot_msgs/TrajectoryFeedback:actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus
+	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/devel/share/spot_msgs/msg/TrajectoryActionFeedback.msg actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:spot_msgs/TrajectoryFeedback
 
 _spot_msgs_generate_messages_check_deps_TrajectoryActionFeedback: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionFeedback
 _spot_msgs_generate_messages_check_deps_TrajectoryActionFeedback: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_TrajectoryActionFeedback.dir/build.make

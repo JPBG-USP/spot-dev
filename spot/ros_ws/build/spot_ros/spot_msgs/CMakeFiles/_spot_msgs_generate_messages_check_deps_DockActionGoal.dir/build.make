@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 include spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_DockActionGoal.dir/progress.make
 
 spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_DockActionGoal:
-	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg actionlib_msgs/GoalID:std_msgs/Header:spot_msgs/DockGoal
+	cd /home/host/spot/ros_ws/build/spot_ros/spot_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spot_msgs /home/host/spot/ros_ws/devel/share/spot_msgs/msg/DockActionGoal.msg spot_msgs/DockGoal:actionlib_msgs/GoalID:std_msgs/Header
 
 _spot_msgs_generate_messages_check_deps_DockActionGoal: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_DockActionGoal
 _spot_msgs_generate_messages_check_deps_DockActionGoal: spot_ros/spot_msgs/CMakeFiles/_spot_msgs_generate_messages_check_deps_DockActionGoal.dir/build.make
