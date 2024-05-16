@@ -18,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/host/spot/ros_ws/devel/include"
   "/home/host/spot/ros_ws/src/navigation_sim/include"
   "/home/host/spot/ros_ws/src/navigation_sim/include/navigation_sim"
   "/opt/ros/noetic/include"

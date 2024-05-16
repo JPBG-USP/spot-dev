@@ -1,0 +1,9 @@
+<launch>
+    <!-- Lança o primeiro nó -->
+    <node name="test_node" pkg="navigation_sim" type="test_node" output="screen">
+    </node>
+
+    <!-- Lança o segundo nó -->
+    <node name="test_node_two" pkg="navigation_sim" type="test_node_two" output="screen">
+    </node>
+</launch>

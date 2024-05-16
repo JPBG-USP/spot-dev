@@ -14,7 +14,8 @@ class publisher_node
 private:
     std::string node_name_;
     std::string topic_name_;
-    ros::Publisher publisher_pub;
+    ros::Publisher publisher_pub_;
+    ros::NodeHandle nh;
 public:
     publisher_node(std::string node_name, std::string topic_name);
     ~publisher_node();
@@ -30,7 +31,7 @@ private:
     std::string node_name_;
     std::string topic_name_;
     std::string message_;
-    ros::Subscriber subscriber_sub;
+    ros::Subscriber subscriber_sub_;
     void subscriberCallback(const std_msgs::String::ConstPtr& msg);
 
 public:
@@ -41,4 +42,5 @@ public:
     std::string getTopicName();
 };
 };
+
 #endif

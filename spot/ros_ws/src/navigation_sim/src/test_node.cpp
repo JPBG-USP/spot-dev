@@ -8,7 +8,7 @@ int main(int argc, char **argv)
   
   while (ros::ok())
   {
-    no_publicador.sendMessage("teste");
+    no_publicador.sendMessage("Teste");
     loop_rate.sleep();
   }
   
