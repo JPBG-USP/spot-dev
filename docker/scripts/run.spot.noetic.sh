@@ -41,4 +41,5 @@ docker run -it \
     -v /dev/dri:/dev/dri \
     -v $PWD/$ROSWS:/home/$USERNAME/$ROSWS \
     -e DISPLAY=$DISPLAY \
+    --name spot_container \
     $WORKREPO:noetic

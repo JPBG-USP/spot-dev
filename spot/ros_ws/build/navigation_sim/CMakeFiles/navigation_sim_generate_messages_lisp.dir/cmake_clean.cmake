@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/host/spot/ros_ws/devel/share/common-lisp/ros/navigation_sim/srv/AddTwoInts.lisp"
+  "/home/host/spot/ros_ws/devel/share/common-lisp/ros/navigation_sim/srv/multipli2ints.lisp"
   "CMakeFiles/navigation_sim_generate_messages_lisp"
 )
 

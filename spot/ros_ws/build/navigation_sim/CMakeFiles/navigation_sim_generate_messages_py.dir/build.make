@@ -53,22 +53,22 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 # Include the progress variables for this target.
 include navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/progress.make
 
-navigation_sim/CMakeFiles/navigation_sim_generate_messages_py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_AddTwoInts.py
+navigation_sim/CMakeFiles/navigation_sim_generate_messages_py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_multipli2ints.py
 navigation_sim/CMakeFiles/navigation_sim_generate_messages_py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/__init__.py
 
 
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_AddTwoInts.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_AddTwoInts.py: /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV navigation_sim/AddTwoInts"
-	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_multipli2ints.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_multipli2ints.py: /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV navigation_sim/multipli2ints"
+	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv
 
 /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/__init__.py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_AddTwoInts.py
+/home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/__init__.py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_multipli2ints.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for navigation_sim"
 	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv --initpy
 
 navigation_sim_generate_messages_py: navigation_sim/CMakeFiles/navigation_sim_generate_messages_py
-navigation_sim_generate_messages_py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_AddTwoInts.py
+navigation_sim_generate_messages_py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/_multipli2ints.py
 navigation_sim_generate_messages_py: /home/host/spot/ros_ws/devel/lib/python3/dist-packages/navigation_sim/srv/__init__.py
 navigation_sim_generate_messages_py: navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/build.make
 

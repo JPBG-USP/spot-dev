@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 add_service_files(FILES 
-  AddTwoInts.srv)
+  multipli2ints.srv)
 
 generate_messages(
   DEPENDENCIES
@@ -44,6 +44,9 @@ include_directories(
 add_executable(test_node src/test_node.cpp)
 target_link_libraries(test_node string_chatter ${catkin_LIBRARIES})
 
-
 add_executable(test_node_two src/test_node_two.cpp)
 target_link_libraries(test_node_two string_chatter ${catkin_LIBRARIES})
+
+add_executable(server_multipli2ints src/server_multipli2ints.cpp)
+target_link_libraries(server_multipli2ints ${catkin_LIBRARIES})
+add_dependencies(server_multipli2ints navigation_sim_gencpp)

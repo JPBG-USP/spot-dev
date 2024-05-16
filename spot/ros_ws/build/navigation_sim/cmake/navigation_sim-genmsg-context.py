@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv"
+services_str = "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv"
 pkg_name = "navigation_sim"
 dependencies_str = "geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/AddTwoInts.js"
+  "/home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/multipli2ints.js"
   "CMakeFiles/navigation_sim_generate_messages_nodejs"
 )
 

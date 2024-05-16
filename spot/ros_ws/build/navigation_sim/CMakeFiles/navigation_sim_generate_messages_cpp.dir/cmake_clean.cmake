@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/host/spot/ros_ws/devel/include/navigation_sim/AddTwoInts.h"
+  "/home/host/spot/ros_ws/devel/include/navigation_sim/multipli2ints.h"
   "CMakeFiles/navigation_sim_generate_messages_cpp"
 )
 

@@ -53,16 +53,16 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 # Include the progress variables for this target.
 include navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/progress.make
 
-navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs: /home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/AddTwoInts.js
+navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs: /home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/multipli2ints.js
 
 
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/AddTwoInts.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/AddTwoInts.js: /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from navigation_sim/AddTwoInts.srv"
-	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/multipli2ints.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/multipli2ints.js: /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from navigation_sim/multipli2ints.srv"
+	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv
 
 navigation_sim_generate_messages_nodejs: navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs
-navigation_sim_generate_messages_nodejs: /home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/AddTwoInts.js
+navigation_sim_generate_messages_nodejs: /home/host/spot/ros_ws/devel/share/gennodejs/ros/navigation_sim/srv/multipli2ints.js
 navigation_sim_generate_messages_nodejs: navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/build.make
 
 .PHONY : navigation_sim_generate_messages_nodejs

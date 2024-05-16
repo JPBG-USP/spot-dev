@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named server_multipli2ints
+
+# Build rule for target.
+server_multipli2ints: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server_multipli2ints
+.PHONY : server_multipli2ints
+
+# fast build rule for target.
+server_multipli2ints/fast:
+	$(MAKE) -f navigation_sim/CMakeFiles/server_multipli2ints.dir/build.make navigation_sim/CMakeFiles/server_multipli2ints.dir/build
+.PHONY : server_multipli2ints/fast
+
+#=============================================================================
 # Target rules for targets named test_node_two
 
 # Build rule for target.
@@ -402,17 +415,17 @@ navigation_sim_generate_messages_cpp/fast:
 .PHONY : navigation_sim_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named _navigation_sim_generate_messages_check_deps_AddTwoInts
+# Target rules for targets named _navigation_sim_generate_messages_check_deps_multipli2ints
 
 # Build rule for target.
-_navigation_sim_generate_messages_check_deps_AddTwoInts: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _navigation_sim_generate_messages_check_deps_AddTwoInts
-.PHONY : _navigation_sim_generate_messages_check_deps_AddTwoInts
+_navigation_sim_generate_messages_check_deps_multipli2ints: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _navigation_sim_generate_messages_check_deps_multipli2ints
+.PHONY : _navigation_sim_generate_messages_check_deps_multipli2ints
 
 # fast build rule for target.
-_navigation_sim_generate_messages_check_deps_AddTwoInts/fast:
-	$(MAKE) -f navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/build.make navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/build
-.PHONY : _navigation_sim_generate_messages_check_deps_AddTwoInts/fast
+_navigation_sim_generate_messages_check_deps_multipli2ints/fast:
+	$(MAKE) -f navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/build.make navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/build
+.PHONY : _navigation_sim_generate_messages_check_deps_multipli2ints/fast
 
 #=============================================================================
 # Target rules for targets named navigation_sim_generate_messages
@@ -1411,6 +1424,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... server_multipli2ints"
 	@echo "... test_node_two"
 	@echo "... test_node"
 	@echo "... navigation_sim_genpy"
@@ -1420,7 +1434,7 @@ help:
 	@echo "... navigation_sim_genlisp"
 	@echo "... navigation_sim_geneus"
 	@echo "... navigation_sim_generate_messages_cpp"
-	@echo "... _navigation_sim_generate_messages_check_deps_AddTwoInts"
+	@echo "... _navigation_sim_generate_messages_check_deps_multipli2ints"
 	@echo "... navigation_sim_generate_messages"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_lisp"

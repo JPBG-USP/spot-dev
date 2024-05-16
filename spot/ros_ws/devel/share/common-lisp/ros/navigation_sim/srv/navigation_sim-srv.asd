@@ -4,6 +4,6 @@
 (defsystem "navigation_sim-srv"
   :depends-on (:roslisp-msg-protocol :roslisp-utils )
   :components ((:file "_package")
-    (:file "AddTwoInts" :depends-on ("_package_AddTwoInts"))
-    (:file "_package_AddTwoInts" :depends-on ("_package"))
+    (:file "multipli2ints" :depends-on ("_package_multipli2ints"))
+    (:file "_package_multipli2ints" :depends-on ("_package"))
   ))

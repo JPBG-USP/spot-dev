@@ -53,18 +53,18 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 # Include the progress variables for this target.
 include navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/progress.make
 
-navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp: /home/host/spot/ros_ws/devel/include/navigation_sim/AddTwoInts.h
+navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp: /home/host/spot/ros_ws/devel/include/navigation_sim/multipli2ints.h
 
 
-/home/host/spot/ros_ws/devel/include/navigation_sim/AddTwoInts.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/host/spot/ros_ws/devel/include/navigation_sim/AddTwoInts.h: /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv
-/home/host/spot/ros_ws/devel/include/navigation_sim/AddTwoInts.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/host/spot/ros_ws/devel/include/navigation_sim/AddTwoInts.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from navigation_sim/AddTwoInts.srv"
-	cd /home/host/spot/ros_ws/src/navigation_sim && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/include/navigation_sim -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/host/spot/ros_ws/devel/include/navigation_sim/multipli2ints.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/host/spot/ros_ws/devel/include/navigation_sim/multipli2ints.h: /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv
+/home/host/spot/ros_ws/devel/include/navigation_sim/multipli2ints.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/host/spot/ros_ws/devel/include/navigation_sim/multipli2ints.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from navigation_sim/multipli2ints.srv"
+	cd /home/host/spot/ros_ws/src/navigation_sim && /home/host/spot/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/include/navigation_sim -e /opt/ros/noetic/share/gencpp/cmake/..
 
 navigation_sim_generate_messages_cpp: navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp
-navigation_sim_generate_messages_cpp: /home/host/spot/ros_ws/devel/include/navigation_sim/AddTwoInts.h
+navigation_sim_generate_messages_cpp: /home/host/spot/ros_ws/devel/include/navigation_sim/multipli2ints.h
 navigation_sim_generate_messages_cpp: navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/build.make
 
 .PHONY : navigation_sim_generate_messages_cpp

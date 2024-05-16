@@ -1,8 +1,8 @@
 
 "use strict";
 
-let AddTwoInts = require('./AddTwoInts.js')
+let multipli2ints = require('./multipli2ints.js')
 
 module.exports = {
-  AddTwoInts: AddTwoInts,
+  multipli2ints: multipli2ints,
 };

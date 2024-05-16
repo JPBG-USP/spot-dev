@@ -17,9 +17,9 @@ add_custom_target(navigation_sim_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv" NAME_WE)
 add_custom_target(_navigation_sim_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "navigation_sim" "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "navigation_sim" "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_navigation_sim_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(navigation_sim
-  "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv"
+  "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/navigation_sim
@@ -49,7 +49,7 @@ add_custom_target(navigation_sim_generate_messages_cpp
 add_dependencies(navigation_sim_generate_messages navigation_sim_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv" NAME_WE)
 add_dependencies(navigation_sim_generate_messages_cpp _navigation_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS navigation_sim_generate_messages_cp
 
 ### Generating Services
 _generate_srv_eus(navigation_sim
-  "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv"
+  "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/navigation_sim
@@ -82,7 +82,7 @@ add_custom_target(navigation_sim_generate_messages_eus
 add_dependencies(navigation_sim_generate_messages navigation_sim_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv" NAME_WE)
 add_dependencies(navigation_sim_generate_messages_eus _navigation_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS navigation_sim_generate_messages_eu
 
 ### Generating Services
 _generate_srv_lisp(navigation_sim
-  "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv"
+  "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/navigation_sim
@@ -115,7 +115,7 @@ add_custom_target(navigation_sim_generate_messages_lisp
 add_dependencies(navigation_sim_generate_messages navigation_sim_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv" NAME_WE)
 add_dependencies(navigation_sim_generate_messages_lisp _navigation_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS navigation_sim_generate_messages_li
 
 ### Generating Services
 _generate_srv_nodejs(navigation_sim
-  "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv"
+  "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/navigation_sim
@@ -148,7 +148,7 @@ add_custom_target(navigation_sim_generate_messages_nodejs
 add_dependencies(navigation_sim_generate_messages navigation_sim_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv" NAME_WE)
 add_dependencies(navigation_sim_generate_messages_nodejs _navigation_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS navigation_sim_generate_messages_no
 
 ### Generating Services
 _generate_srv_py(navigation_sim
-  "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv"
+  "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/navigation_sim
@@ -181,7 +181,7 @@ add_custom_target(navigation_sim_generate_messages_py
 add_dependencies(navigation_sim_generate_messages navigation_sim_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv" NAME_WE)
 add_dependencies(navigation_sim_generate_messages_py _navigation_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

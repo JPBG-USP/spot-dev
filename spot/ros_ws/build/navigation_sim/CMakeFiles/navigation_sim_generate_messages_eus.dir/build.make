@@ -53,21 +53,21 @@ CMAKE_BINARY_DIR = /home/host/spot/ros_ws/build
 # Include the progress variables for this target.
 include navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/progress.make
 
-navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus: /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/AddTwoInts.l
+navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus: /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/multipli2ints.l
 navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus: /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/manifest.l
 
 
-/home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/AddTwoInts.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/AddTwoInts.l: /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from navigation_sim/AddTwoInts.srv"
-	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/navigation_sim/srv/AddTwoInts.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv
+/home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/multipli2ints.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/multipli2ints.l: /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from navigation_sim/multipli2ints.srv"
+	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/host/spot/ros_ws/src/navigation_sim/srv/multipli2ints.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navigation_sim -o /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv
 
 /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for navigation_sim"
 	cd /home/host/spot/ros_ws/build/navigation_sim && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim navigation_sim geometry_msgs
 
 navigation_sim_generate_messages_eus: navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus
-navigation_sim_generate_messages_eus: /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/AddTwoInts.l
+navigation_sim_generate_messages_eus: /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/srv/multipli2ints.l
 navigation_sim_generate_messages_eus: /home/host/spot/ros_ws/devel/share/roseus/ros/navigation_sim/manifest.l
 navigation_sim_generate_messages_eus: navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/build.make
 

@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+navigation_sim/CMakeFiles/server_multipli2ints.dir/rule:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_sim/CMakeFiles/server_multipli2ints.dir/rule
+.PHONY : navigation_sim/CMakeFiles/server_multipli2ints.dir/rule
+
+# Convenience name for target.
+server_multipli2ints: navigation_sim/CMakeFiles/server_multipli2ints.dir/rule
+
+.PHONY : server_multipli2ints
+
+# fast build rule for target.
+server_multipli2ints/fast:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f navigation_sim/CMakeFiles/server_multipli2ints.dir/build.make navigation_sim/CMakeFiles/server_multipli2ints.dir/build
+.PHONY : server_multipli2ints/fast
+
+# Convenience name for target.
 navigation_sim/CMakeFiles/test_node_two.dir/rule:
 	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_sim/CMakeFiles/test_node_two.dir/rule
 .PHONY : navigation_sim/CMakeFiles/test_node_two.dir/rule
@@ -303,19 +318,19 @@ navigation_sim_generate_messages_cpp/fast:
 .PHONY : navigation_sim_generate_messages_cpp/fast
 
 # Convenience name for target.
-navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/rule:
-	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/rule
-.PHONY : navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/rule
+navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/rule:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/rule
+.PHONY : navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/rule
 
 # Convenience name for target.
-_navigation_sim_generate_messages_check_deps_AddTwoInts: navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/rule
+_navigation_sim_generate_messages_check_deps_multipli2ints: navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/rule
 
-.PHONY : _navigation_sim_generate_messages_check_deps_AddTwoInts
+.PHONY : _navigation_sim_generate_messages_check_deps_multipli2ints
 
 # fast build rule for target.
-_navigation_sim_generate_messages_check_deps_AddTwoInts/fast:
-	cd /home/host/spot/ros_ws/build && $(MAKE) -f navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/build.make navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_AddTwoInts.dir/build
-.PHONY : _navigation_sim_generate_messages_check_deps_AddTwoInts/fast
+_navigation_sim_generate_messages_check_deps_multipli2ints/fast:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/build.make navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/build
+.PHONY : _navigation_sim_generate_messages_check_deps_multipli2ints/fast
 
 # Convenience name for target.
 navigation_sim/CMakeFiles/navigation_sim_generate_messages.dir/rule:
@@ -1442,6 +1457,33 @@ tf_generate_messages_nodejs/fast:
 	cd /home/host/spot/ros_ws/build && $(MAKE) -f navigation_sim/CMakeFiles/tf_generate_messages_nodejs.dir/build.make navigation_sim/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
+src/server_multipli2ints.o: src/server_multipli2ints.cpp.o
+
+.PHONY : src/server_multipli2ints.o
+
+# target to build an object file
+src/server_multipli2ints.cpp.o:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f navigation_sim/CMakeFiles/server_multipli2ints.dir/build.make navigation_sim/CMakeFiles/server_multipli2ints.dir/src/server_multipli2ints.cpp.o
+.PHONY : src/server_multipli2ints.cpp.o
+
+src/server_multipli2ints.i: src/server_multipli2ints.cpp.i
+
+.PHONY : src/server_multipli2ints.i
+
+# target to preprocess a source file
+src/server_multipli2ints.cpp.i:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f navigation_sim/CMakeFiles/server_multipli2ints.dir/build.make navigation_sim/CMakeFiles/server_multipli2ints.dir/src/server_multipli2ints.cpp.i
+.PHONY : src/server_multipli2ints.cpp.i
+
+src/server_multipli2ints.s: src/server_multipli2ints.cpp.s
+
+.PHONY : src/server_multipli2ints.s
+
+# target to generate assembly for a file
+src/server_multipli2ints.cpp.s:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f navigation_sim/CMakeFiles/server_multipli2ints.dir/build.make navigation_sim/CMakeFiles/server_multipli2ints.dir/src/server_multipli2ints.cpp.s
+.PHONY : src/server_multipli2ints.cpp.s
+
 src/string_chatter.o: src/string_chatter.cpp.o
 
 .PHONY : src/string_chatter.o
@@ -1532,6 +1574,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... test"
+	@echo "... server_multipli2ints"
 	@echo "... rebuild_cache"
 	@echo "... test_node_two"
 	@echo "... test_node"
@@ -1542,7 +1585,7 @@ help:
 	@echo "... navigation_sim_genlisp"
 	@echo "... navigation_sim_geneus"
 	@echo "... navigation_sim_generate_messages_cpp"
-	@echo "... _navigation_sim_generate_messages_check_deps_AddTwoInts"
+	@echo "... _navigation_sim_generate_messages_check_deps_multipli2ints"
 	@echo "... navigation_sim_generate_messages"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_lisp"
@@ -1621,6 +1664,9 @@ help:
 	@echo "... rviz_generate_messages_eus"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_nodejs"
+	@echo "... src/server_multipli2ints.o"
+	@echo "... src/server_multipli2ints.i"
+	@echo "... src/server_multipli2ints.s"
 	@echo "... src/string_chatter.o"
 	@echo "... src/string_chatter.i"
 	@echo "... src/string_chatter.s"
