@@ -1,8 +1,0 @@
-prefix=/home/host/spot/ros_ws/install
-
-Name: spot_driver
-Description: Description of spot_driver
-Version: 1.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
