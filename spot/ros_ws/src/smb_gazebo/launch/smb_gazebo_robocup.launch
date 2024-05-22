@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+        <arg name="world_file" value="/usr/share/gazebo-11/worlds/robocup14_spl_field.world"/>
+    </include>
+    
+</launch>
