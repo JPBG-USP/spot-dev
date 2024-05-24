@@ -1,2 +1,2 @@
-navigation_sim:robot_simulation:smb_control:smb_description:smb_gazebo
+navigation_sim:robot_simulation:smb_control:smb_description:smb_gazebo:smb_highlevel_controller
 -DCATKIN_DEVEL_PREFIX=/home/host/spot/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/host/spot/ros_ws/install -G Unix Makefiles

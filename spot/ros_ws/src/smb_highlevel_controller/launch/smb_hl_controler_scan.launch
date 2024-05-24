@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find smb_gazebo)/launch/smb_gazebo_robocup.launch"/>
+    <node name="scan_subscriber" pkg="smb_highlevel_controller" type="scan_subscriber" output="screen"/>
+    
+</launch>

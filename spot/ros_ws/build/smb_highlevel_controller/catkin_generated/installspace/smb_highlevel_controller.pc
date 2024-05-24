@@ -1,0 +1,8 @@
+prefix=/home/host/spot/ros_ws/install
+
+Name: smb_highlevel_controller
+Description: Description of smb_highlevel_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
