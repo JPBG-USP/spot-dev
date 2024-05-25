@@ -137,6 +137,9 @@ include_directories(
 add_executable(scan_subscriber src/scan_subscriber.cpp)
 target_link_libraries(scan_subscriber ${catkin_LIBRARIES})
 
+add_executable(guide_to_pillar src/guide_to_pillar.cpp)
+target_link_libraries(guide_to_pillar ${catkin_LIBRARIES})
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use

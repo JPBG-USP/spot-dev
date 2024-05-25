@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find smb_gazebo)/launch/smb_gazebo_pillar.launch"/>
+    <node name="guide_to_pillar" pkg="smb_highlevel_controller" type="guide_to_pillar" output="screen"/>
+</launch>

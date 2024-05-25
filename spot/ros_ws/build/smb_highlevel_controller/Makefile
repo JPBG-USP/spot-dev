@@ -102,6 +102,17 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -123,17 +134,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -513,21 +513,6 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/host/spot/ros_ws/build && $(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
 smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
 	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir/rule
@@ -556,6 +541,63 @@ scan_subscriber: smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/rule
 scan_subscriber/fast:
 	cd /home/host/spot/ros_ws/build && $(MAKE) -f smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build.make smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build
 .PHONY : scan_subscriber/fast
+
+# Convenience name for target.
+smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/rule:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/rule
+.PHONY : smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/rule
+
+# Convenience name for target.
+guide_to_pillar: smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/rule
+
+.PHONY : guide_to_pillar
+
+# fast build rule for target.
+guide_to_pillar/fast:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build
+.PHONY : guide_to_pillar/fast
+
+# Convenience name for target.
+smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+src/guide_to_pillar.o: src/guide_to_pillar.cpp.o
+
+.PHONY : src/guide_to_pillar.o
+
+# target to build an object file
+src/guide_to_pillar.cpp.o:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/src/guide_to_pillar.cpp.o
+.PHONY : src/guide_to_pillar.cpp.o
+
+src/guide_to_pillar.i: src/guide_to_pillar.cpp.i
+
+.PHONY : src/guide_to_pillar.i
+
+# target to preprocess a source file
+src/guide_to_pillar.cpp.i:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/src/guide_to_pillar.cpp.i
+.PHONY : src/guide_to_pillar.cpp.i
+
+src/guide_to_pillar.s: src/guide_to_pillar.cpp.s
+
+.PHONY : src/guide_to_pillar.s
+
+# target to generate assembly for a file
+src/guide_to_pillar.cpp.s:
+	cd /home/host/spot/ros_ws/build && $(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/src/guide_to_pillar.cpp.s
+.PHONY : src/guide_to_pillar.cpp.s
 
 src/scan_subscriber.o: src/scan_subscriber.cpp.o
 
@@ -617,12 +659,16 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... rebuild_cache"
+	@echo "... roscpp_generate_messages_eus"
+	@echo "... scan_subscriber"
+	@echo "... guide_to_pillar"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... test"
 	@echo "... edit_cache"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... scan_subscriber"
-	@echo "... rebuild_cache"
+	@echo "... src/guide_to_pillar.o"
+	@echo "... src/guide_to_pillar.i"
+	@echo "... src/guide_to_pillar.s"
 	@echo "... src/scan_subscriber.o"
 	@echo "... src/scan_subscriber.i"
 	@echo "... src/scan_subscriber.s"

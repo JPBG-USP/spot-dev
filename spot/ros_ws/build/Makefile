@@ -688,19 +688,6 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_cpp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-#=============================================================================
 # Target rules for targets named roscpp_generate_messages_eus
 
 # Build rule for target.
@@ -725,6 +712,32 @@ scan_subscriber: cmake_check_build_system
 scan_subscriber/fast:
 	$(MAKE) -f smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build.make smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build
 .PHONY : scan_subscriber/fast
+
+#=============================================================================
+# Target rules for targets named guide_to_pillar
+
+# Build rule for target.
+guide_to_pillar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 guide_to_pillar
+.PHONY : guide_to_pillar
+
+# fast build rule for target.
+guide_to_pillar/fast:
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build
+.PHONY : guide_to_pillar/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_py
@@ -2027,9 +2040,10 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... scan_subscriber"
+	@echo "... guide_to_pillar"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... trajectory_msgs_generate_messages_lisp"
 	@echo "... odometry_source_plugin"

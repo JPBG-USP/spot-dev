@@ -62,7 +62,12 @@ RUN apt-get install -y ros-noetic-robot-state-publisher
 RUN apt-get install -y ros-noetic-controller-manager
 RUN apt-get install -y ros-noetic-teleop-twist-keyboard
 RUN apt-get install -y ros-noetic-pointcloud-to-laserscan
+RUN apt-get install -y ros-noetic-tf
+RUN apt-get install -y ros-noetic-tf2
+RUN apt-get install -y ros-noetic-tf2-ros
+RUN apt-get install -y ros-noetic-tf2-sensor-msgs
 RUN apt-get install -y ros-noetic-tf2-tools
+
 
 # spot SDK
 RUN pip3 install bosdyn-client bosdyn-mission bosdyn-api bosdyn-core

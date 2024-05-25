@@ -346,6 +346,7 @@ smb_gazebo/clean: smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 # Recursive "all" directory target.
 smb_highlevel_controller/all: smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/all
+smb_highlevel_controller/all: smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/all
 
 .PHONY : smb_highlevel_controller/all
 
@@ -378,9 +379,10 @@ smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/std_msgs_gen
 smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/clean
+smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/clean
+smb_highlevel_controller/clean: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : smb_highlevel_controller/clean
 
@@ -1467,33 +1469,6 @@ smb_highlevel_controller/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clea
 .PHONY : smb_highlevel_controller/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 #=============================================================================
-# Target rules for target smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/host/spot/ros_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/host/spot/ros_ws/build/CMakeFiles 0
-.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-#=============================================================================
 # Target rules for target smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir
 
 # All Build rule for target.
@@ -1527,7 +1502,7 @@ smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/all:
 	$(MAKE) -f smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build.make smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/depend
 	$(MAKE) -f smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build.make smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=18,19 "Built target scan_subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=20,21 "Built target scan_subscriber"
 .PHONY : smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1546,6 +1521,60 @@ scan_subscriber: smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/rule
 smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/clean:
 	$(MAKE) -f smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/build.make smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/clean
 .PHONY : smb_highlevel_controller/CMakeFiles/scan_subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir
+
+# All Build rule for target.
+smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/all:
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/depend
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=9,10 "Built target guide_to_pillar"
+.PHONY : smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/all
+
+# Build rule for subdir invocation for target.
+smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/host/spot/ros_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/host/spot/ros_ws/build/CMakeFiles 0
+.PHONY : smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/rule
+
+# Convenience name for target.
+guide_to_pillar: smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/rule
+
+.PHONY : guide_to_pillar
+
+# clean rule for target.
+smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/clean:
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/build.make smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/clean
+.PHONY : smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir/clean
+
+#=============================================================================
+# Target rules for target smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/host/spot/ros_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/host/spot/ros_ws/build/CMakeFiles 0
+.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 #=============================================================================
 # Target rules for target smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir
@@ -1629,8 +1658,8 @@ smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_highlevel_controller/C
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_highlevel_controller/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_highlevel_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_highlevel_controller/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir/all
+smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all
@@ -1675,7 +1704,7 @@ smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_gazebo/CMakeFiles/tf2_
 smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all: smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 	$(MAKE) -f smb_gazebo/CMakeFiles/odometry_source_plugin.dir/build.make smb_gazebo/CMakeFiles/odometry_source_plugin.dir/depend
 	$(MAKE) -f smb_gazebo/CMakeFiles/odometry_source_plugin.dir/build.make smb_gazebo/CMakeFiles/odometry_source_plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=16,17 "Built target odometry_source_plugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=18,19 "Built target odometry_source_plugin"
 .PHONY : smb_gazebo/CMakeFiles/odometry_source_plugin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2782,7 +2811,7 @@ smb_gazebo/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
 navigation_sim/CMakeFiles/test_node.dir/all: navigation_sim/CMakeFiles/string_chatter.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/test_node.dir/build.make navigation_sim/CMakeFiles/test_node.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/test_node.dir/build.make navigation_sim/CMakeFiles/test_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=24,25 "Built target test_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=26,27 "Built target test_node"
 .PHONY : navigation_sim/CMakeFiles/test_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2837,7 +2866,7 @@ navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/all: smb_highl
 navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/all: navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=14,15 "Built target navigation_sim_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=16,17 "Built target navigation_sim_generate_messages_py"
 .PHONY : navigation_sim/CMakeFiles/navigation_sim_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3053,7 +3082,7 @@ navigation_sim/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean:
 navigation_sim/CMakeFiles/server_multipli2ints.dir/all: navigation_sim/CMakeFiles/navigation_sim_gencpp.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/server_multipli2ints.dir/build.make navigation_sim/CMakeFiles/server_multipli2ints.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/server_multipli2ints.dir/build.make navigation_sim/CMakeFiles/server_multipli2ints.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=20,21 "Built target server_multipli2ints"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=22,23 "Built target server_multipli2ints"
 .PHONY : navigation_sim/CMakeFiles/server_multipli2ints.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3134,7 +3163,7 @@ navigation_sim/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean:
 navigation_sim/CMakeFiles/test_node_two.dir/all: navigation_sim/CMakeFiles/string_chatter.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/test_node_two.dir/build.make navigation_sim/CMakeFiles/test_node_two.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/test_node_two.dir/build.make navigation_sim/CMakeFiles/test_node_two.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=26,27 "Built target test_node_two"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=28,29 "Built target test_node_two"
 .PHONY : navigation_sim/CMakeFiles/test_node_two.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3242,7 +3271,7 @@ navigation_sim/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean:
 navigation_sim/CMakeFiles/string_chatter.dir/all:
 	$(MAKE) -f navigation_sim/CMakeFiles/string_chatter.dir/build.make navigation_sim/CMakeFiles/string_chatter.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/string_chatter.dir/build.make navigation_sim/CMakeFiles/string_chatter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=22,23 "Built target string_chatter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=24,25 "Built target string_chatter"
 .PHONY : navigation_sim/CMakeFiles/string_chatter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3378,7 +3407,7 @@ navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/all: smb_high
 navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/all: navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=9 "Built target navigation_sim_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=11 "Built target navigation_sim_generate_messages_cpp"
 .PHONY : navigation_sim/CMakeFiles/navigation_sim_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3433,7 +3462,7 @@ navigation_sim/CMakeFiles/navigation_sim_generate_messages_lisp.dir/all: smb_hig
 navigation_sim/CMakeFiles/navigation_sim_generate_messages_lisp.dir/all: navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_lisp.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_lisp.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_lisp.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=12 "Built target navigation_sim_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=14 "Built target navigation_sim_generate_messages_lisp"
 .PHONY : navigation_sim/CMakeFiles/navigation_sim_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3654,7 +3683,7 @@ navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/all: smb_high
 navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/all: navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=10,11 "Built target navigation_sim_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=12,13 "Built target navigation_sim_generate_messages_eus"
 .PHONY : navigation_sim/CMakeFiles/navigation_sim_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3736,7 +3765,7 @@ navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/all: smb_h
 navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/all: navigation_sim/CMakeFiles/_navigation_sim_generate_messages_check_deps_multipli2ints.dir/all
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/depend
 	$(MAKE) -f navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/build.make navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=13 "Built target navigation_sim_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/host/spot/ros_ws/build/CMakeFiles --progress-num=15 "Built target navigation_sim_generate_messages_nodejs"
 .PHONY : navigation_sim/CMakeFiles/navigation_sim_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.

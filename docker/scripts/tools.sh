@@ -20,3 +20,13 @@ function confirm()
     false
 }
 
+function try()
+{
+    "$@"
+    local status=$?
+    if [ $status -ne 0 ]; then
+        echo "Erro: comando '$*' falhou com status $status"
+        return $status
+    fi
+    return 0
+}

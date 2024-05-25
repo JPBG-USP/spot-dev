@@ -77,12 +77,13 @@
 /home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+/home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/rebuild_cache.dir
+/home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir
+/home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/scan_subscriber.dir
+/home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/guide_to_pillar.dir
 /home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 /home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/test.dir
 /home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/edit_cache.dir
-/home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/roscpp_generate_messages_eus.dir
-/home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/scan_subscriber.dir
-/home/host/spot/ros_ws/build/smb_highlevel_controller/CMakeFiles/rebuild_cache.dir
 /home/host/spot/ros_ws/build/smb_gazebo/CMakeFiles/install/strip.dir
 /home/host/spot/ros_ws/build/smb_gazebo/CMakeFiles/install.dir
 /home/host/spot/ros_ws/build/smb_gazebo/CMakeFiles/list_install_components.dir
