@@ -2,14 +2,20 @@
 #include "geometry_msgs/Twist.h"
 #include "sensor_msgs/LaserScan.h"
 
+#define TOLERANCIA_INDEX 2
+
+ros::Publisher pub;
+
 void callBackFunction(sensor_msgs::LaserScan msg)
 {
     // Data from Laser Scan configuration
     float menor_distancia = msg.range_max;
     float ang_increment = msg.angle_increment;
+    float ang_min = msg.angle_min;
+    float ang_max = msg.angle_max;
     int range_index = -1; // Inicializando com um valor inválido
-    float central_index = msg.ranges.size() / 2;
-    ROS_INFO("min[%f] max[%f]", msg.angle_max, msg.angle_min);
+    int central_index = msg.ranges.size()/2;
+    geometry_msgs::Twist command_vel; 
 
     // Searching for the closest point
     for (size_t i = 0; i < msg.ranges.size(); i++)
@@ -21,45 +27,30 @@ void callBackFunction(sensor_msgs::LaserScan msg)
             range_index = i;
         }
     }
+    float ang_menor = ang_min + range_index*ang_increment;
 
-    geometry_msgs::Twist command_vel; // Declarando a variável command_vel
-
-    if (range_index != -1) // Verifica se um ponto mais próximo foi encontrado
+    if (range_index > (central_index + TOLERANCIA_INDEX) || range_index < (central_index - TOLERANCIA_INDEX))
     {
-        float ang_pillar = range_index * ang_increment; // Finding the angle of the pillar direction
-        
-        // Checking if the closest point is in front of the car
-        if ((central_index - 2) < range_index && range_index < (central_index + 2))
+        if (range_index > (central_index + TOLERANCIA_INDEX))
         {
-            command_vel.angular.z = (central_index - range_index);
-        }
-        else
+            command_vel.angular.z = 1.0;
+        }else
         {
-            command_vel.angular.z = 0;
-        }
+            command_vel.angular.z = -1.0;
+        }   
     }
-    else
-    {
-        // Se nenhum ponto próximo foi encontrado, pare de girar
-        command_vel.angular.z = 0;
-    }
-
-    // Check if the distance to the closest point is less than 1 meter
     if (menor_distancia < 1)
     {
-        command_vel.linear.x = 0;
-    }
-    else
+        command_vel.linear.x = 0.0;
+        command_vel.angular.z = 0.0;
+    }else
     {
-        command_vel.linear.x = 1;
+        command_vel.linear.x = 0.5;
     }
 
-    // Publish the velocity command
-    ros::NodeHandle nh;
-    ros::Publisher pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1000);
+    ROS_INFO("menor_distancia[%f] index [%d]", menor_distancia, range_index);
+    
     pub.publish(command_vel);
-
-    ROS_INFO("Ang [%0.2f] lin [%0.2f]", command_vel.angular.z, command_vel.linear.x);
 }
 
 int main(int argc, char *argv[])
@@ -67,6 +58,7 @@ int main(int argc, char *argv[])
     ros::init(argc, argv, "guide_to_pillar");
     ros::NodeHandle nh;
     ros::Subscriber subscriber = nh.subscribe("/scan", 10, callBackFunction);
+    pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
     ros::spin();
     return 0;
 }

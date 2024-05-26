@@ -2,4 +2,5 @@
 <launch>
     <include file="$(find smb_gazebo)/launch/smb_gazebo_pillar.launch"/>
     <node name="guide_to_pillar" pkg="smb_highlevel_controller" type="guide_to_pillar" output="screen"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find smb_highlevel_controller)/rviz/robot_center.rviz" output="screen" />  
 </launch>
