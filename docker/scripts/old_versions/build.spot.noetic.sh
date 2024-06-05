@@ -8,7 +8,7 @@ TOOLSFILE=scripts/tools.sh
 
 # Simples colors, other are in TOOLSFILE
 BIYELLOW='\033[1;93m'
-BIRED='\033[1;91m'       
+BIRED='\033[1;91m'      
 NC='\033[0m' 
 
 # Checking if is in the right folder
@@ -33,10 +33,11 @@ if ! confirm "Do you want to continue with the build of spot.noetic?"; then
     exit 1
 fi
 
+DOCKERFILE=Dockerfile.spot.noetic
 # Build of image
 docker build \
     --network=host \
-    -f Dockerfile.spot.noetic \
+    -f $DOCKERFILE \
     -t $WORKREPO:noetic \
     --rm \
     .

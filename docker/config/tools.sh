@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+
 # Color arguments
 WHITE='\033[0;37m'
 RED='\033[0;31m'
@@ -9,7 +10,6 @@ YELLOW='\033[0;33m'
 BIYELLOW='\033[1;93m'    
 CYAN='\033[0;36m'  
 NC='\033[0m' 
-
 
 # confirm function
 function confirm()

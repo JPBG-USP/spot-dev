@@ -4,29 +4,35 @@
 
 # Arguments for easy future changes
 WORKREPO=spot-dev
-TOOLSFILE=docker/scripts/tools.sh
-IMAGENAME=$WORKREPO
-IMAGETAG=noetic
-DOCKERFILE=docker/Dockerfile.spot.noetic
-CONTAINERNAME=spot_container
-USERNAME=host
-ROSWS=spot/ros_ws
+CONFIGFILE=docker/config/docker_configs.sh  # Path to the configuration file
 
 # Simples colors, other are in TOOLSFILE
 BIYELLOW='\033[1;93m'
 BIRED='\033[1;91m'       
 NC='\033[0m' 
 
-# Checking if is in the right folder
+# Check if the current working directory is the correct repository
 if [[ $PWD = *$WORKREPO ]]; then
+    # Attempt to source the configuration file
+    if [[ -f $CONFIGFILE ]]; then
+        source $CONFIGFILE
+    else
+        # Configuration file not found, exit with error
+        echo -e "\n[$(date +"%T")]${BIRED}[ERROR]${NC} ${CYAN}docker_configs.sh file${NC} not found, the file must be in '${CYAN}$CONFIGFILE${NC}'.\n \a"
+        exit 1
+    fi
+
+    # Attempt to source the tools file
     if [[ -f $TOOLSFILE ]]; then
         source $TOOLSFILE
     else
-        echo -e "\n[$(date +"%T")]${BIRED}[ERRO]${NC} ${CYAN}tool.sh${NC} not found, the file must be in '${CYAN}$TOOLSFILE${NC}'.\n \a"
+        # Tools file not found, exit with error
+        echo -e "\n[$(date +"%T")]${BIRED}[ERROR]${NC} ${CYAN}tools.sh${NC} not found, the file must be in '${CYAN}$TOOLSFILE${NC}'.\n \a"
         exit 1
     fi
 else
-    echo -e "\n[$(date +"%T")]${BIYELLOW}[WARN]${NC} You must be in '${CYAN}$WORKREPO${NC}' directory to run this command.\n \a" 
+    # Not in the correct directory, exit with warning
+    echo -e "\n[$(date +"%T")]${BIYELLOW}[WARN]${NC} You must be in the '${CYAN}$WORKREPO${NC}' directory to run this command.\n \a"
     exit 1
 fi
 

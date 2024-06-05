@@ -1,44 +1,51 @@
 #!/bin/bash
 
-# /author: João Pedro Baltieca Garcia, aka JPBG-USP
+# Author: João Pedro Baltieca Garcia, aka JPBG-USP
 
-# Arguments for easy future changes
-WORKREPO=spot-dev
-TOOLSFILE=docker/scripts/tools.sh
-IMAGENAME=$WORKREPO
-IMAGETAG=noetic
-DOCKERFILE=docker/Dockerfile.spot.noetic
-CONTAINERNAME=spot_container
-USERNAME=host
-ROSWS=spot/ros_ws
+# Essential arguments, other arguments are in docker_config.sh
+WORKREPO=spot-dev                     # Name of the working repository
+CONFIGFILE=docker/config/docker_configs.sh  # Path to the configuration file
 
-# Simples colors, other are in TOOLSFILE
-BIYELLOW='\033[1;93m'
-BIRED='\033[1;91m'       
-NC='\033[0m' 
+# Simple color codes for output messages, additional colors are defined in tools.sh
+BIYELLOW='\033[1;93m'  # Bright Yellow
+BIRED='\033[1;91m'     # Bright Red
+CYAN='\033[0;36m'      # Cyan
+NC='\033[0m'           # No Color
 
-# Checking if is in the right folder
+# Check if the current working directory is the correct repository
 if [[ $PWD = *$WORKREPO ]]; then
+    # Attempt to source the configuration file
+    if [[ -f $CONFIGFILE ]]; then
+        source $CONFIGFILE
+    else
+        # Configuration file not found, exit with error
+        echo -e "\n[$(date +"%T")]${BIRED}[ERROR]${NC} ${CYAN}docker_configs.sh file${NC} not found, the file must be in '${CYAN}$CONFIGFILE${NC}'.\n \a"
+        exit 1
+    fi
+
+    # Attempt to source the tools file
     if [[ -f $TOOLSFILE ]]; then
         source $TOOLSFILE
     else
-        echo -e "\n[$(date +"%T")]${BIRED}[ERRO]${NC} ${CYAN}tool.sh${NC} not found, the file must be in '${CYAN}$TOOLSFILE${NC}'.\n \a"
+        # Tools file not found, exit with error
+        echo -e "\n[$(date +"%T")]${BIRED}[ERROR]${NC} ${CYAN}tools.sh${NC} not found, the file must be in '${CYAN}$TOOLSFILE${NC}'.\n \a"
         exit 1
     fi
 else
-    echo -e "\n[$(date +"%T")]${BIYELLOW}[WARN]${NC} You must be in '${CYAN}$WORKREPO${NC}' directory to run this command.\n \a" 
+    # Not in the correct directory, exit with warning
+    echo -e "\n[$(date +"%T")]${BIYELLOW}[WARN]${NC} You must be in the '${CYAN}$WORKREPO${NC}' directory to run this command.\n \a"
     exit 1
 fi
 
-# Check if the image exists
+# Check if the Docker image already exists
 if docker image inspect "$IMAGENAME:$IMAGETAG" > /dev/null 2>&1; then
-    # Image already exists
+    # Image exists, prompt the user to create with a different tag
     if confirm "The ${CYAN}$IMAGENAME:$IMAGETAG${NC} image already exists. Do you want to create the image with a different tag?"; then
-        # Creating with a new tag
+        # Read the new tag from the user
         read -p "Insert the new tag for the image: " new_image_tag
         IMAGETAG=$new_image_tag
     else
-        # Overwriting the old image
+        # Confirm if the user wants to overwrite the existing image
         if ! confirm "Are you sure you want to overwrite the old image with the new one?"; then
             echo -e "\n[$(date +"%T")][INFO] Docker Image build canceled."
             exit 1
@@ -46,10 +53,11 @@ if docker image inspect "$IMAGENAME:$IMAGETAG" > /dev/null 2>&1; then
     fi
 fi
 
-# Build of image
+# Build the Docker image with specified configurations
 docker build \
     --network=host \
     -f $DOCKERFILE \
     -t $IMAGENAME:$IMAGETAG \
+    --build-arg USERNAME=$USERNAME \
     --rm \
     .
