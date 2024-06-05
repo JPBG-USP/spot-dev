@@ -89,7 +89,7 @@ RUN echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && rm -rf /var/lib/apt/lists/*
 
 # Adding config files
-COPY config/bashrc /home/${USERNAME}/.bashrc
+COPY docker/config/bashrc /home/${USERNAME}/.bashrc
 
 # Settings for start state of the container
 USER $USERNAME

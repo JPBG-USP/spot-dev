@@ -30,36 +30,20 @@ else
     exit 1
 fi
 
-# Check if there is a container with the name:
-if [ -n "$(docker ps -a --filter "name=$CONTAINER_NAME" --format "{{.ID}}")" ]; then
-    
-    if ! confirm "\n[$(date +"%T")]${BIYELLOW}[WARN]${NC} A conc.sh).\a"; then
-        echo -e "\n[$(date +"%T")][INFO] Operation canceled.\n"
-        exit 1
-    fi
-    echo -e -n "[$(date +"%T")][INFO] Container removed: "
-    docker container rm $CONTAINERNAME
-    echo -e "[$(date +"%T")][INFO] Starting container."
-fi
-
-
-# Open a terminal in the container
-# If none comand is send, open a empty terminal
-
-# Confirmation before build
-# Do you want to start the container?
-if ! confirm "Do you want to open a new terminal for the container?"; then
-    if confirm "Deseja digitar um comando ao container?"; then
-        echo -e "Insira as opções do comando:"
-        read comando_params
-        echo -e "Insita o comando:"
-        read comando
-        try docker exec $comando_params spot_container $comando
-        exit 1
-    fi
-
-    echo -e "\n[$(date +"%T")][INFO] Operation canceled"
+# Check if there is a container with the name: # CHange this to check 
+if ! [ -n "$(docker ps -a --filter "name=$CONTAINERNAME" --format "{{.ID}}")" ]; then
+    echo -e "\n[$(date +"%T")]${BIRED}[ERRO]${NC} There is no container named ${CYAN}$CONTAINERNAME${NC}.\n \a"
     exit 1
 fi
 
-try docker exec -it spot_container /bin/bash
+if ! docker ps --format '{{.Names}}' | grep -q "^$CONTAINERNAME$"; then
+    echo -e "\n[$(date +"%T")]${BIRED}[ERRO]${NC} The ${CYAN}$CONTAINERNAME${NC} container is not running.\n \a"
+    exit 1
+fi
+
+read -p "Enter the command you want to execute in the container (Do not enter anything to just open a new terminal): " command_terminal
+
+if [ -z "$command_terminal" ]; then
+    command_terminal=/bin/bash
+fi
+try docker exec -it $CONTAINERNAME $command_terminal

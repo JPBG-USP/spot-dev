@@ -36,7 +36,7 @@ if ! docker image inspect "$IMAGENAME:$IMAGETAG" > /dev/null 2>&1; then
 fi
 
 # Checking if a container with the selected name already exists
-if [ -n "$(docker ps -a --filter "name=$CONTAINER_NAME" --format "{{.ID}}")" ]; then
+if [ -n "$(docker ps -a --filter "name=$CONTAINERNAME" --format "{{.ID}}")" ]; then
     if ! confirm "\n[$(date +"%T")]${BIYELLOW}[WARN]${NC} A container with the name ${CYAN}$CONTAINERNAME${NC} and the image ${CYAN}$IMAGENAME:$IMAGETAG${NC} already exists. Do you want to delete the old container and restart a new one? (To open a new terminal in the container, use exec.sh).\a"; then
         echo -e "\n[$(date +"%T")][INFO] Operation canceled.\n"
         exit 1
