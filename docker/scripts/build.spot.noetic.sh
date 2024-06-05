@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# /author: João Pedro Baltieca Garcia, aka JPBG-USP
+
 # Arguments for easy future changes
 WORKREPO=spot-dev
 TOOLSFILE=scripts/tools.sh

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Arguments for easy future changes
 WORKREPO=spot-dev
 TOOLSFILE=docker/scripts/tools.sh
